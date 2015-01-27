@@ -2,7 +2,7 @@
 
 unset($CFG);
 global $CFG;
-$CFG = new stdClass();
+$CFG = new stdClass(); 
 
 $CFG->dbtype    = 'mysqli';
 $CFG->dblibrary = 'native';
